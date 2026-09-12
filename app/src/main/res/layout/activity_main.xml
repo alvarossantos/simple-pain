@@ -23,6 +23,21 @@
         android:layout_height="wrap_content"
         android:text="@string/corVerde"
         android:onClick="corVerde"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/corAzul"
+        android:onClick="corAzul"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/corVermelho"
+        android:onClick="corVermelho"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/corMagenta"
+        android:onClick="corMagenta"/>
 
 
 

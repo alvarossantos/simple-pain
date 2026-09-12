@@ -35,6 +35,24 @@ public class ViewCanvas extends View {
         linha = new Linha(getContext(), path, paint);
     }
 
+    public void inicializarObjetosAzul(){
+        path = new Path();
+        Paint paint = Estilo.getEstilosParaLinhaAzul();
+        linha = new Linha(getContext(), path, paint);
+    }
+
+    public void inicializarObjetosVermelho(){
+        path = new Path();
+        Paint paint = Estilo.getEstilosParaLinhaVermelho();
+        linha = new Linha(getContext(), path, paint);
+    }
+
+    public void inicializarObjetosMagenta(){
+        path = new Path();
+        Paint paint = Estilo.getEstilosParaLinha();
+        linha = new Linha(getContext(), path, paint);
+    }
+
     private void inicioToque(float x, float y){
         path.moveTo(x, y);
         eixoX = x;
